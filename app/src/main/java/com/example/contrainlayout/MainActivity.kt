@@ -2,6 +2,7 @@ package com.example.contrainlayout
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.contrainlayout.extendedfloatingacctionbutton.ExtendedFloatingActivity
 import com.example.contrainlayout.animation.CircularActivity
 import com.example.contrainlayout.animation.startActivity
 import com.example.contrainlayout.floatingwidget.FloatingWidgetActivity
@@ -21,6 +22,9 @@ class MainActivity : AppCompatActivity() {
         }
         btnopenfloatingwidget.setOnClickListener {
             startActivity<FloatingWidgetActivity>()
+        }
+        btnFloatActionButton.setOnClickListener {
+            startActivity<ExtendedFloatingActivity>()
         }
     }
 }

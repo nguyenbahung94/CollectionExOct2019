@@ -21,6 +21,7 @@
         </activity>
         <activity android:name=".animation.CircularActivity"/>
         <activity android:name=".floatingwidget.FloatingWidgetActivity"/>
+        <activity android:name=".extendedfloatingacctionbutton.ExtendedFloatingActivity"/>
         <service android:name=".floatingwidget.FloatingWidgetService"
                  android:enabled="true"
                  android:exported="false"
