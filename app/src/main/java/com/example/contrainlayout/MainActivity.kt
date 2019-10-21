@@ -6,6 +6,7 @@ import com.example.contrainlayout.extendedfloatingacctionbutton.ExtendedFloating
 import com.example.contrainlayout.animation.CircularActivity
 import com.example.contrainlayout.animation.startActivity
 import com.example.contrainlayout.floatingwidget.FloatingWidgetActivity
+import com.example.contrainlayout.loginconstraintlayoutanimation.LoginAnimationActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -25,6 +26,9 @@ class MainActivity : AppCompatActivity() {
         }
         btnFloatActionButton.setOnClickListener {
             startActivity<ExtendedFloatingActivity>()
+        }
+        btnLoginAnimation.setOnClickListener {
+            startActivity<LoginAnimationActivity>()
         }
     }
 }
