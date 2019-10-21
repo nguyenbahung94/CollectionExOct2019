@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.contrainlayout.animation.CircularActivity
 import com.example.contrainlayout.animation.startActivity
+import com.example.contrainlayout.floatingwidget.FloatingWidgetActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +17,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun eventClick() {
         btnCircular.setOnClickListener {
-         startActivity<CircularActivity>()
+            startActivity<CircularActivity>()
+        }
+        btnopenfloatingwidget.setOnClickListener {
+            startActivity<FloatingWidgetActivity>()
         }
     }
 }
