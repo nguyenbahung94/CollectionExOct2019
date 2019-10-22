@@ -7,6 +7,7 @@ import com.example.contrainlayout.animation.CircularActivity
 import com.example.contrainlayout.animation.startActivity
 import com.example.contrainlayout.floatingwidget.FloatingWidgetActivity
 import com.example.contrainlayout.loginconstraintlayoutanimation.LoginAnimationActivity
+import com.example.retrofitofflinecahing.DemoCachingActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -29,6 +30,9 @@ class MainActivity : AppCompatActivity() {
         }
         btnLoginAnimation.setOnClickListener {
             startActivity<LoginAnimationActivity>()
+        }
+        btnRetrofitCaching.setOnClickListener {
+            startActivity<DemoCachingActivity>()
         }
     }
 }

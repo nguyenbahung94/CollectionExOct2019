@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools" package="com.example.contrainlayout">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <uses-permission android:name="TASKS"/>
     <uses-permission android:name="android.permission.TYPE_APPLICATION_OVERLAY"/>
@@ -23,6 +26,7 @@
         <activity android:name=".floatingwidget.FloatingWidgetActivity"/>
         <activity android:name=".extendedfloatingacctionbutton.ExtendedFloatingActivity"/>
         <activity android:name=".loginconstraintlayoutanimation.LoginAnimationActivity"/>
+        <activity android:name="com.example.retrofitofflinecahing.DemoCachingActivity"/>
         <service android:name=".floatingwidget.FloatingWidgetService"
                  android:enabled="true"
                  android:exported="false"
