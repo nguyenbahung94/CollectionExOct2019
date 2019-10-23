@@ -27,6 +27,9 @@
         <activity android:name=".extendedfloatingacctionbutton.ExtendedFloatingActivity"/>
         <activity android:name=".loginconstraintlayoutanimation.LoginAnimationActivity"/>
         <activity android:name="com.example.retrofitofflinecahing.DemoCachingActivity"/>
+        <activity android:name=".montionlayout.MotionActivity"/>
+        <activity android:name=".animation.AnimationActivity"/>
+        <activity android:name=".animation.AnimationShoppingActivity"/>
         <service android:name=".floatingwidget.FloatingWidgetService"
                  android:enabled="true"
                  android:exported="false"

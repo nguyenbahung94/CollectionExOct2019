@@ -2,11 +2,14 @@ package com.example.contrainlayout
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.contrainlayout.animation.AnimationActivity
+import com.example.contrainlayout.animation.AnimationShoppingActivity
 import com.example.contrainlayout.extendedfloatingacctionbutton.ExtendedFloatingActivity
 import com.example.contrainlayout.animation.CircularActivity
 import com.example.contrainlayout.animation.startActivity
 import com.example.contrainlayout.floatingwidget.FloatingWidgetActivity
 import com.example.contrainlayout.loginconstraintlayoutanimation.LoginAnimationActivity
+import com.example.contrainlayout.montionlayout.MotionActivity
 import com.example.retrofitofflinecahing.DemoCachingActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -33,6 +36,15 @@ class MainActivity : AppCompatActivity() {
         }
         btnRetrofitCaching.setOnClickListener {
             startActivity<DemoCachingActivity>()
+        }
+        btnMotionActivity.setOnClickListener {
+            startActivity<MotionActivity>()
+        }
+        btnActivityAnimation.setOnClickListener {
+            startActivity<AnimationActivity>()
+        }
+        btnActivityShopping.setOnClickListener {
+            startActivity<AnimationShoppingActivity>()
         }
     }
 }
